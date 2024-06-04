@@ -1,10 +1,3 @@
-import { useState } from "react";
-import { useDispatch } from "react-redux";
-import { IconButton, Box, Typography, useTheme, Button } from "@mui/material";
-import AddIcon from "@mui/icons-material/Add";
-import { addToCart } from "../state";
-import { useNavigate } from "react-router-dom";
-
 const Item = ({ item, width }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
