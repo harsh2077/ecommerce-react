@@ -10,6 +10,7 @@ const AddressForm = ({
   errors,
   handleBlur,
   handleChange,
+  handleWrong
 }) => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
