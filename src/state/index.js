@@ -39,10 +39,6 @@ export const cartSlice = createSlice({
         return item;
       });
     },
-
-    setIsCartOpen: (state) => {
-      state.isCartOpen = !state.isCartOpen;
-    },
   },
 });
 
