@@ -80,40 +80,6 @@ const Item = ({ item, width }) => {
 };
 
 export default Item;
-// this is client react side 
-// client 
-// client/node_modules 
-// client/public 
-// client/src 
-// client/src/assets 
-// client/src/components 
-// client/src/components/Item.jsx 
-// client/src/scenes 
-// client/src/scenes/checkout 
-// client/src/scenes/checkout/AddressForm.jsx 
-// client/src/scenes/checkout/Checkout.jsx 
-// client/src/scenes/checkout/Confirmation.jsx 
-// client/src/scenes/checkout/Payment.jsx 
-// client/src/scenes/checkout/Shipping.jsx 
-// client/src/scenes/global 
-// client/src/scenes/global/CartMenu.jsx 
-// client/src/scenes/global/Footer.jsx 
-// client/src/scenes/global/Navbar.jsx 
-// client/src/scenes/home 
-// client/src/scenes/home/Home.jsx 
-// client/src/scenes/home/MainCarousel.jsx 
-// client/src/scenes/home/ShoppingList.jsx 
-// client/src/scenes/home/Subscribe.jsx 
-// client/src/scenes/itemDetails 
-// client/src/scenes/itemDetails/ItemDetails.jsx 
-// client/src/state 
-// client/src/state/index.js 
-// client/src/App.js 
-// client/src/index.css 
-// client/src/index.js 
-// client/src/theme.js 
-// client/temp 
-// client/.gitignore 
 // client/package-lock.json 
 // client/package.json 
 // client/README.md 
