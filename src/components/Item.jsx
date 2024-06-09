@@ -25,14 +25,6 @@ const Item = ({ item, width }) => {
         onMouseOver={() => setIsHovered(true)}
         onMouseOut={() => setIsHovered(false)}
       >
-        <img
-          alt={item.name}
-          width="300px"
-          height="400px"
-          src={`http://localhost:1337${url}`}
-          onClick={() => navigate(`/item/${item.id}`)}
-          style={{ cursor: "pointer" }}
-        />
         <Box
           display={isHovered ? "block" : "none"}
           position="absolute"
