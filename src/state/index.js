@@ -27,7 +27,7 @@ export const cartSlice = createSlice({
         if (item.id === action.payload.id) {
           item.count++;
         }
-        return item;
+    
       });
     },
 
