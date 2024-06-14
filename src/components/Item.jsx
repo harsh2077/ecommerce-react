@@ -23,7 +23,6 @@ const Item = ({ item, width }) => {
       <Box
         position="relative"
         onMouseOver={() => setIsHovered(true)}
-        onMouseOut={() => setIsHovered(false)}
       >
         <Box
           display={isHovered ? "block" : "none"}
