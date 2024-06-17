@@ -17,11 +17,11 @@ const AddressForm = ({
   // these functions allow for better code readability
   const formattedName = (field) => `${type}.${field}`;
 
-  const formattedError = (field) =>
-    Boolean(
-      getIn(touched, formattedName(field)) &&
-        getIn(errors, formattedName(field))
-    );
+  // const formattedError = (field) =>
+  //   Boolean(
+  //     getIn(touched, formattedName(field)) &&
+  //       getIn(errors, formattedName(field))
+  //   );
 
   const formattedHelper = (field) =>
     getIn(touched, formattedName(field)) && getIn(errors, formattedName(field));
@@ -117,18 +117,6 @@ const AddressForm = ({
         name={formattedName("state")}
         error={formattedError("state")}
         helperText={formattedHelper("state")}
-        sx={{ gridColumn: "1fr" }}
-      />
-      <TextField
-        fullWidth
-        type="text"
-        label="Zip Code"
-        onBlur={handleBlur}
-        onChange={handleChange}
-        value={values.zipCode}
-        name={formattedName("zipCode")}
-        error={formattedError("zipCode")}
-        helperText={formattedHelper("zipCode")}
         sx={{ gridColumn: "1fr" }}
       />
     </Box>
