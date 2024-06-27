@@ -24,8 +24,7 @@ export const cartSlice = createSlice({
 
     increaseCount: (state, action) => {
       state.cart = state.cart.map((item) => {
-        if (item.id === action.payload.id) {
-          item.count++;
+        if (item.id === action.payload.id) 
         }
     
       });
