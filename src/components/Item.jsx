@@ -9,8 +9,7 @@ const Item = ({ item, width }) => {
   const { category, price, name, image } = item.attributes;
   const {
     data: {
-      attributes: {
-        formats: {
+      attributes: 
           medium: { url },
         },
       },
