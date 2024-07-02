@@ -24,9 +24,6 @@ const Item = ({ item, width }) => {
           padding="0 5%"
         >
           <Box display="flex" justifyContent="space-between"
-              <IconButton onClick={() => setCount(Math.max(count - 1, 1))}>
-                <RemoveIcon />
-              </IconButton>
               <Typography color={shades.primary[300]}>{count}</Typography>
               <IconButton onClick={() => setCount(count + 1)}>
                 <AddIcon />
